@@ -1,7 +1,8 @@
 from colorama import Fore, Back, Style
 from datetime import datetime
-from salary import calculate_salary as kash
-from people import get_employees
+from my_package.salary import calculate_salary as kash
+from my_package.people import get_employees
+
 
 current_datetime = datetime.now().date()
 
